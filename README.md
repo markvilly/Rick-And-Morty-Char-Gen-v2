@@ -50,3 +50,4 @@ export default tseslint.config({
 ```
 # Rick-And-Morty-Char-Gen-v2
 # Rick-And-Morty-Char-Gen-v2
+# Rick-And-Morty-Char-Gen-v2
