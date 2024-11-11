@@ -10,7 +10,7 @@ const Button = ({onBtnClick, value, color}: ButtonProp)=> {
         <>
         <div className="flex flex-col">
             
-                <button  onClick={onBtnClick} className={`${color} rounded py-2 px-6 text-white`} >{value}</button>
+                <button  onClick={onBtnClick} className={`${color} rounded py-2 px-6 text-white mt-4`} >{value}</button>
         </div>
         </>
     )

@@ -15,11 +15,11 @@ export default function Characters(){
 
     }
 
-    
-
     const [data2, setData2] = useState<number >(1)
     const [resource, setResource] = useState<IResults | null>(null)
-    // const [random, setRandom] = useState<number>(0)
+    
+    //implement Caching with useQuery: and useRef:
+   
     function generateRandomNumber( ): number{
         const randomNumber = Math.floor(Math.random() * 182) + 1;
         setData2(randomNumber)
@@ -48,12 +48,12 @@ export default function Characters(){
 
     // const rand = resource ? resource.: 100
     
-    return (
+    return ( 
         <>
-        <div className="flex flex-col justify-center px-8 text-center">
+        <div className="flex flex-col justify-center px-8 text-center md:w-6/12 lg:w-4/12">
         <div className="content bg-gray-100 border rounded p-10 ">
                 {/* <h1>{data}</h1> */}
-                <h1 className="text-4xl text-green-400 font-bold">Rick and Morty</h1>
+                <h1 className="text-4xl text-lime-600  font-bold">Rick and Morty</h1>
                 <h3 className="text-2xl text-yellow-600">Where are they now?</h3>
                 <h3>Character Generator v2</h3>
                 <div className="image flex justify-center">
